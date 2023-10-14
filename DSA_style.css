@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url(portfolio_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-bg{
+    background-color: rgba(255,255,255,0.7);
+}
+header {
+    min-width: 100%;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.5rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-bottom: 4rem;
+    position: sticky;
+    top: 0;
+}
+main {
+    flex-grow: 1;
+}
+header h1 {
+    font-family: 'Poppins';
+    color: #333;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.nav-item-wrapper li {
+    list-style-type: none;
+}
+.nav-item-wrapper li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: .3em 1.5em;
+    background: black;
+
+}
+.nav-item-wrapper li a:hover {
+    background: rgba(95, 94, 94, 0.5);
+    color: black;
+    font-weight: 700;
+
+}
+.intro-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4em 5em;
+    
+}
+.self-introduction {
+    background: linear-gradient(rgba(250, 254, 255, 0.7),rgba(197, 111, 111, 0.5));
+    min-width: 50%;
+    height: auto;
+    border-radius:10px;
+    padding: 2em 3em;
+    color: black;
+    box-shadow: 1em 1em 14px rgba(8, 8, 8, 0.5);
+}
+.self-introduction h2 {
+    font-family: 'Montserrat',Roboto,Poppins;
+    font-size: 4rem;
+}
+.self-introduction p {
+    line-height: 2em;
+    font-size: 3rem;
+}
+.icon {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    word-spacing: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
